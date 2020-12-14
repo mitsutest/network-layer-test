@@ -1,0 +1,17 @@
+・概要
+ニューラルネットワークの実装と手書き数字判別の学習。ネットワークの層やノード数の変化による学習経過の変化を調べるプログラム。
+・内容
+functions.py:ネットワークの計算などで使用する関数を格納
+Mnist.py:Mnistデータセットの読み込みのための関数等を格納
+Network3L.py:3層ニューラルネットワークの実装
+Network4L.py:4層ニューラルネットワークの実装
+NetworkComparison.py:3層と4層のネットワークでの学習経過の違いを調べる
+NetworkNodeComparison.py:3層のネットワークで隠れ層のノード数による学習経過の違いを調べる
+NNCResult.jpg:NetworkNodeComparisonの結果
+NCResult1.jpg:NetworkComparisonの結果(学習率0.1)
+NCResult2.jpg:NetworkComparisonの結果(学習率0.5)
+・必要ライブラリ
+numpy
+matplotlib
+・使用方法
+プログラムファイルを同じフォルダに格納してNetworkComparison.pyまたはNetworkNodeComparison.pyを起動。
